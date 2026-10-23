@@ -1,7 +1,15 @@
 // Write a JavaScript program that accepts a student's exam score and determines the corresponding grade using conditional statements (`if`, `else if`, and `else`).
 
 // The score must be between 0 and 100 (inclusive).
-let score = 49;
+let score = 101.10;
+
+if (score >100 || score < 0)
+
+    {
+
+        console.log("Invalid input")
+    }
+else {
 
 if (score > 90 && score <= 100) {
 
@@ -36,6 +44,7 @@ else {
     console.log("Grade: F - Fail");
 
 
+}
 }
 
 
