@@ -23,6 +23,13 @@
 // console.log(fruits.sort());
 
 
-let nums = [11,10,12,9];// 40,20,30
+// let nums = [11, 10, 12, 9];// 40,20,30
 
-console.log(nums.sort()); //1,11, 25,3
+// console.log(nums.sort()); //1,11, 25,3
+
+
+
+const fives = ["Chiranjeevi", "Pawan Kalyan", "Venkatesh", "Balayya", "Mahesh babu"];
+
+//console.log(fives);
+console.log(fives.at(-6));
